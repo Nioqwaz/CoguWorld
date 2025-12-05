@@ -1,0 +1,74 @@
+/* style.css */
+/* (mesmo CSS usado nas outras páginas) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #faf8f2;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+header {
+  background: #e3d6c0;
+  padding: 20px 0;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2c2c2c;
+}
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav .menu a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-weight: 500;
+}
+main h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.description h2 {
+  margin: 20px 0 10px;
+  font-size: 1.4rem;
+  color: #444;
+}
+.description ul {
+  list-style: disc inside;
+  margin-left: 20px;
+}
+footer {
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
+@media (max-width: 600px) {
+  nav .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
